@@ -215,6 +215,10 @@ body {
 .mb-90{
   margin: 0 0 90px 0;
 }
+
+
+
+
 /*----------------------
     01.1. Color codes
 ------------------------*/
@@ -245,6 +249,88 @@ body {
 .border-btm {
   border-bottom: 1px solid #4e4e4e;
 }
+.head{
+
+  color: #FF6A00;
+  
+}
+/*----------------------
+    navbar
+------------------------*/
+/*----------------------
+     .bs-example {
+            margin: 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+
+            .dropdownh:hover .dropdown-menu,
+            .btn-group:hover .dropdown-menu {
+                display: block;
+            }
+
+
+            .dropdown-menu {
+                margin-top: 0;
+            }
+
+            .dropdown-toggle {
+                margin-bottom: 2px;
+            }
+
+            .navbar .dropdown-toggle,
+            .nav-tabs .dropdown-toggle {
+                margin-bottom: 0;
+            }
+        }
+
+
+        /*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.container1 {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FE5F38;
+}
+.page-item.active .page-link {
+
+z-index: 1;
+
+color: #fff;
+
+background-color: #FF0000;
+
+border-color: #AEFF5E;
+
+}
+
+
+
 #scrollUp {
   background: #333333 none repeat scroll 0 0;
   bottom: 30px;
@@ -368,23 +454,23 @@ body {
   padding: 0px 20px;
 }
 .user-info-top > ul li {
-  border-right: 1px solid #4e4e4e;
+  border-right: 1px solid #fe5f38 ;
   padding: 0 20px;
 }
 .user-info-top > ul li:first-child {
-  border-left: 1px solid #4e4e4e;
+  border-left: 1px solid #fe5f38 ;
 }
 .user-info-top > ul li a {
-  color: #fff;
-  font-size: 13px;
+  color: rgb(243, 239, 239);
+  font-size: 18px;
   text-transform: uppercase;
-  line-height: 40px;
+  line-height: 10px;
 }
 .user-info-top > ul li a:hover {
-  color: #FE5F38;
+  color: rgb(223, 11, 11);
 }
 .user-info-top > ul li a i{
-  margin-right: 10px
+  margin-right: 20px
   
 }
 /*---------------------------------
@@ -598,7 +684,7 @@ body {
 .sticky-header.sticky {
   -webkit-animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
-  background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  background: rgba(243, 220, 214, 0.9) none repeat scroll 0 0;
   box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
   left: 0;
   margin: auto;
@@ -2257,6 +2343,7 @@ body {
 }
 /*----------------------------------
     16. single-product-page css 
+
 ------------------------------------*/
 .discription-tab-menu{
   margin-bottom: 30px;
@@ -2281,7 +2368,7 @@ body {
   text-transform: uppercase;
 }
 .discription-content p {
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 .description-content > p {
@@ -2290,6 +2377,46 @@ body {
   margin-bottom: 0;
 }
 .discription-tab-menu li a.active {
+  color: #FE5F38;
+}
+/*----------------------------------
+    16. single-product-page css 
+
+------------------------------------*/
+
+.discription1-tab-menu{
+  
+  
+  background: #f5f7fa none repeat scroll 0 0;
+  display: block;
+}
+.discription1-tab-menu .nav {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.discription1-tab-menu ul li{
+  margin-right: 10px;
+}
+.discription1-tab-menu li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 25px;
+
+}
+
+.discription1-content p {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.description1-content > p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.discription1-tab-menu li a.active {
   color: #FE5F38;
 }
 .form-review .table-striped li {
