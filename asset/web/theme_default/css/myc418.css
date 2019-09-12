@@ -1,0 +1,104 @@
+.modal{z-index: 999999 !important;}
+.pprice{font-weight: bold;}
+.features .listy dt{font-weight: 600;}
+.pdescription h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+.viewb a + span{
+    top: 120%;
+}
+.primary-content h1{
+    font-weight: normal;
+    display:flex;
+    font-size: 25px;
+}
+.primary-content h1:before, .primary-content h1:after {
+    color:white;
+    content:'';
+    flex:1;
+    border-bottom:groove 1px;
+    margin:auto 0.25em;
+    box-shadow: 0 -1px ;
+}
+.viewb a + span{display: none;}
+
+.avatar-upload hgroup h1:before, .avatar-upload hgroup h1:after{margin:0 !important;display:block;flex: 0;}
+
+#igramModalCenter .igram-footer img{max-width: 180px;}
+#igramModalCenter .igram-footer p {
+    font-size: 13.5px;
+}
+.logo img {
+    max-width: 170px !important;
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+
+.fpassModal .modal-content .modal-body .form-signup input {
+    border: 1px solid #dcdcdc !important;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.pheader .menu ul li.dropdown a.dropdown-toggle.nav-link:after {
+    border: 0 none;
+    width: 13px;
+    height: 10px;
+    background: url(../images/icons/arrow-down.png) no-repeat;
+    vertical-align: inherit;
+}
+.cat-on-sale{ color: #c70909 !important;}
+.listof .product.single .product-info h3 del .prod-desc, .listof .product.single .product-info h3 span.prod-desc, #product_discount_wrapper {color: #c70909 !important;}
+
+@media (min-width: 992px) {
+    .pheader .menu ul .dropdown-menu {
+        background: #fff !important;
+    }
+}
+
+ul.vsizes{
+    text-align: center !important;
+    padding: 0;
+}
+
+.vsizes .swatch.visible {
+    border-radius: 2px;
+    width: 31px;
+    height: auto;
+    padding: 0.5rem 0;
+    font-size: 10px;
+}
+.skippy {
+    display: block;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+    background-color: #7B858C;
+    outline: 0;
+}
+.old-bv {
+    font-size: 14px;
+    background-color: #7B858C;
+}
+.lw-widget {
+    font-family: 'Fira Sans', serif;
+}
+
+.lw-widget button,
+.lw-widget input,
+.lw-widget textarea,
+.lw-widget select {
+    font-family: inherit;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}

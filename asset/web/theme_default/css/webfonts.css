@@ -1,0 +1,22 @@
+/*
+	============================================================
+	============================================================
+	Font Styles added 07.03.2018
+	Neelagiri Tea LK
+	sam@birdinkweb (C)2018, LK
+	Fonts: 
+	============================================================
+
+	============================================================
+*/
+
+@font-face {
+  font-family: 'Mightype-Script';
+  src: url('../fonts/Mightype-Script/Mightype-Script.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Mightype-Script/Mightype-Scriptd41d.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Mightype-Script/Mightype-Script.woff') format('woff'),
+     url('../fonts/Mightype-Script/Mightype-Script.ttf')  format('truetype'),
+     url('../fonts/Mightype-Script/Mightype-Script.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-style: normal;
+ }
+
