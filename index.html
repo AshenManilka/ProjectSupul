@@ -26,23 +26,41 @@
         <link rel="stylesheet" href="assets/css/responsive.css">		
         <link rel="stylesheet" href="assets/css/reset.css">		
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+
+        <!--search bar-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+
         <style>
             /* Set the size of the div element that contains the map */
             #map {
                 height: 400px;  /* The height is 400 pixels */
                 width: 100%;  /* The width is the width of the web page */
             }
+
+           
+
+
         </style>
     </head>
     <body>        <!-- *** NAVBAR ***
 _________________________________________________________ -->
+ <!-- *** NAVBAR ***
+_________________________________________________________ -->
 <div class="main-wrapper home-4">
-    <header>                
+    <header>
         <!-- hader-top start -->
         <div class="header-top bg-black border-btm">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-4 col-md-2">
                         <div class="header-left-area">
                             <!-- language-currency-wrapper start -->
                             <div class="language-currency-wrapper">
@@ -50,25 +68,27 @@ _________________________________________________________ -->
                             </div>
                             <!-- language-currency-wrapper end -->
                             <!-- top-social-warraper start -->
-                            <div class="top-social-warraper">
+                            <div class="logo">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/SupulCollection/"><i class="fa fa-facebook"></i></a></li>
-                                    <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                                    <li><a href="https://www.youtube.com/channel/UCxB35jLD-Lpc4WI0LU2stEQ"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a href="https://www.instagram.com/supulcollection/"><i class="fa fa-instagram"></i></a></li>
+                                    <div class="logo ">
+                                        <a href="../index.html"><img src="../images/logo/logo-2.png" alt=""></a>
+                                    </div>
+
                                 </ul>
                             </div>
-                            <!-- top-social-warraper end -->
+
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-8 col-md-8 ">
                         <!-- user-info-top start-->
-                        <div class="user-info-top">
+                        <div class="user-info-top mt-4">
                             <ul>
-                                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-                                <li><a href="about-us.html"><i class="fa fa-check-circle"></i>About Us</a></li>
-                                <li><a href="contact-us.html"><i class="fa fa-phone"></i>Locations</a></li>
-                                <li><a href="about-us/index.html#careers"><i class="fa fa-users"></i>Careers</a></li>
+                                <li><a href="../index.html"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                <li><a href="../about-us.html"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
+                                </li>
+                                <li><a href="../contact-us.html"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
+                                <li><a href="../about-us/index.html#careers"><i
+                                            class="fa fa-users fa-2x"></i>Careers</a></li>
                             </ul>
                         </div>
                         <!-- user-info-top end -->
@@ -76,152 +96,306 @@ _________________________________________________________ -->
                 </div>
             </div>
         </div>
-        <!-- hader-top end -->
-        <!-- header-mid-area start -->
-        <div class="header-mid-area hader-mid-two bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="rwo">
-                            <div class="header-mid-content hader-mid-two">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-5 order-3 order-md-1">
-                                        <!-- search-wrapper start -->
-                                        <div class="search-wrapper">
-                                            <div class="search-bar search-bar-2">
-
-                                            </div>
-                                        </div>
-                                        <!-- search-wrapper end -->
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 order-2 order-md-2">
-                                        <!-- logo-mid start -->
-                                        <div class="logo-mid">
-                                            <a href="index.html"><img src="images/logo/logo-2.png" alt=""></a>
-                                        </div>
-                                        <!-- logo-mid end -->
-                                    </div>
-                                    <div class="col-lg-4 col-md-3 order-1 order-md-3">                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header-mid-area end -->
-        <!-- header-bottom start -->
-        <div class="header-bottom-area sticky-header bg-black">
-            <div class="container">
-                <div class="row d-none d-lg-block">
-                    <div class="col-lg-12">
-                        <div class="main-menu-wrap text-center">
-                            <div class="main-menu main-menu-2">
-                                <nav>
-                                                                            <ul>
-                                            <li>
-                                                <a href="index.html"> HOME </a>
-                                            </li>
-                                              
-                                                  
-                                                                                                    <li>
-                                                        <a href="products/women.html">
-                                                            Women                                                        </a>
-                                                    </li>
-                                                      
-                                                  
-                                                  
-                                                  
-                                                  
-                                                                                                    <li>
-                                                        <a href="products/men.html">
-                                                            Men                                                        </a>
-                                                    </li>
-                                                      
-                                                  
-                                                                                                    <li>
-                                                        <a href="products/kids.html">
-                                                            Kids                                                        </a>
-                                                    </li>
-                                                      
-                                                                                                    <li>
-                                                        <a href="products/accessories.html">
-                                                            Accessories                                                        </a>
-                                                    </li>
-                                                      
-                                                                                                    <li>
-                                                        <a href="products/footwear.html">
-                                                            Footwear                                                        </a>
-                                                    </li>
-                                                                                            </ul>
-                                                                    </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-lg-12">
-                        <!-- Mobile Menu Area Start -->
-                        <div class="mobile-menu-area d-block d-lg-none">
-                            <div class="mobile-menu">
-                                <nav id="mobile-menu-active">
-                                                                            <ul>
-                                            <li>
-                                                <a href="index.html"> HOME </a>
-                                            </li>
-                                              
-                                                  
-                                                                                                    <li>
-                                                        <a href="products/women.html">
-                                                            Women                                                        </a>
-                                                    </li>
-                                                      
-                                                  
-                                                  
-                                                  
-                                                  
-                                                                                                    <li>
-                                                        <a href="products/men.html">
-                                                            Men                                                        </a>
-                                                    </li>
-                                                      
-                                                  
-                                                                                                    <li>
-                                                        <a href="products/kids.html">
-                                                            Kids                                                        </a>
-                                                    </li>
-                                                      
-                                                                                                    <li>
-                                                        <a href="products/accessories.html">
-                                                            Accessories                                                        </a>
-                                                    </li>
-                                                      
-                                                                                                    <li>
-                                                        <a href="products/footwear.html">
-                                                            Footwear                                                        </a>
-                                                    </li>
-                                                                                                        
-                                        </ul>
-                                                                    </nav>							
-                            </div>
-                        </div>
-                        <!-- Mobile Menu Area End -->
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        
         <!-- header-bottom end -->
+        
     </header>
 </div>
+
+
+<!--catagory nav  links--->
+
+<div class="header-mid-area hader-mid-two bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="rwo">
+                    <div class="header-mid-content hader-mid-two">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-5 order-3 order-md-1">
+                                <!-- search-wrapper start -->
+                                <div class="search-wrapper">
+                                    <div class="search-bar search-bar-2">
+
+                                    </div>
+                                </div>
+                                <!-- search-wrapper end -->
+                            </div>
+                            <div class="col-lg-4 col-md-4 order-2 order-md-2">
+                                <!-- logo-mid start -->
+
+                                <!-- logo-mid end -->
+                            </div>
+                            <div class="col-lg-4 col-md-3 order-1 order-md-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header-mid-area end -->
+<!-- header-bottom start -->
+<div class="header-bottom-area sticky-header ">
+    <div class="container">
+        <div class="row d-none d-lg-block">
+            <div class="col-lg-12">
+                <div class="main-menu-wrap text-center">
+                    <div class="main-menu main-menu-2">
+
+                        <nav class="navbar navbar-expand-lg ">
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav m-auto">
+
+                                    <li>
+                                        <a href="../index.html"> HOME </a>
+                                    </li>
+                                    <li class="nav-item   dropdownh">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Women
+
+                                        </a>
+                                        <div class="dropdown-menu ">
+                                            <a class="dropdown-item " href="#">Dresses</a>
+                                            <a class="dropdown-item" href="#">Party</a>
+                                            <a class="dropdown-item" href="#">Linen</a>
+                                            <a class="dropdown-item" href="#">Tops</a>
+                                            <a class="dropdown-item" href="#">Trousers</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdownh">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            MEN
+
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item " href="#">Party</a>
+                                            <a class="dropdown-item" href="#">Work ware</a>
+                                            <a class="dropdown-item" href="#">Linen</a>
+                                            <a class="dropdown-item" href="#">Shirt</a>
+                                            <a class="dropdown-item" href="#">Trousers</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdownh">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            KIDS
+
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item " href="#">Dresses</a>
+                                            <a class="dropdown-item" href="#">Party</a>
+                                            <a class="dropdown-item" href="#">Romper</a>
+                                            <a class="dropdown-item" href="#">Dumper Bag</a>
+                                            <a class="dropdown-item" href="#">Sandal</a>
+                                            <a class="dropdown-item" href="#">First Walker</a>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="nav-item dropdown  ">
+                                        <a id="dropdownMenu1" href="#" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            class="nav-link dropdown-toggle"> Accessories </a>
+                                        <ul aria-labelledby="dropdownMenu1"
+                                            class="dropdown-menu border-0 shadow">
+                                            <li class="dropdown-divider"></li>
+
+                                            <!-- Level two dropdown-->
+                                            <li class="dropdown-submenu dropdownh">
+                                                <a id="dropdownMenu2" href="#" role="button"
+                                                    data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    class="dropdown-item dropdown-toggle">LADIES</a>
+                                                <ul aria-labelledby="dropdownMenu2"
+                                                    class="dropdown-menu border-0 shadow">
+                                                    <li>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item " href="#">Dresses</a>
+                                                            <a class="dropdown-item" href="#">Party</a>
+                                                            <a class="dropdown-item" href="#">Romper</a>
+                                                            <a class="dropdown-item" href="#">Dumper Bag</a>
+                                                            <a class="dropdown-item" href="#">Sandal</a>
+                                                            <a class="dropdown-item" href="#">First
+                                                                Walker</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="dropdown-submenu dropdownh">
+                                                <a id="dropdownMenu2" href="#" role="button"
+                                                    data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    class="dropdown-item dropdown-toggle">GENTS</a>
+                                                <ul aria-labelledby="dropdownMenu2"
+                                                    class="dropdown-menu border-0 shadow">
+                                                    <li>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item " href="#">Dresses</a>
+                                                            <a class="dropdown-item" href="#">Party</a>
+                                                            <a class="dropdown-item" href="#">Romper</a>
+                                                            <a class="dropdown-item" href="#">Dumper Bag</a>
+                                                            <a class="dropdown-item" href="#">Sandal</a>
+                                                            <a class="dropdown-item" href="#">First
+                                                                Walker</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>                                                       
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown  ">
+                                        <a id="dropdownMenu1" href="#" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            class="nav-link dropdown-toggle"> Footwear </a>
+                                        <ul aria-labelledby="dropdownMenu1"
+                                            class="dropdown-menu border-0 shadow">
+                                            <li class="dropdown-divider"></li>
+
+                                            <!-- Level two dropdown-->
+                                            <li class="dropdown-submenu dropdownh">
+                                                <a id="dropdownMenu2" href="#" role="button"
+                                                    data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    class="dropdown-item dropdown-toggle">LADIES</a>
+                                                <ul aria-labelledby="dropdownMenu2"
+                                                    class="dropdown-menu border-0 shadow">
+                                                    <li>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item " href="#">Dresses
+                                                                Shoes</a>
+                                                            <a class="dropdown-item" href="#">Casual
+                                                                Shoes</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="dropdown-submenu dropdownh">
+                                                <a id="dropdownMenu2" href="#" role="button"
+                                                    data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    class="dropdown-item dropdown-toggle">GENTS</a>
+                                                <ul aria-labelledby="dropdownMenu2"
+                                                    class="dropdown-menu border-0 shadow">
+                                                    <li>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item " href="#">Dresses
+                                                                Shoes</a>
+                                                            <a class="dropdown-item" href="#">Casual
+                                                                Shoes</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                           
+                                        </ul>
+                                    </li>                                               
+                                </ul>
+                             
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--search bar--->
+        <div class="container h-100">
+            <div class="d-flex justify-content-center h-100">
+              <div class="searchbar">
+                <input class="search_input" type="text" name="" placeholder="Search...">
+                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div> 
+
+
+        <div class="row ">
+            <div class="col-lg-12">
+                <!-- Mobile Menu Area Start -->
+                <div class="mobile-menu-area d-block d-lg-none">
+                    <div class="mobile-menu">
+                        <nav id="mobile-menu-active">
+                            <ul>
+                                <li>
+                                    <a href="../index.html"> HOME </a>
+                                </li>
+
+                                <li>
+                                    <a href="women.html">
+                                        Women </a>
+                                </li>
+                                <li>
+                                    <a href="men.html">
+                                        Men </a>
+                                </li>
+                                <li>
+                                    <a href="kids.html">
+                                        Kids </a>
+                                </li>
+
+                                <li>
+                                    <a href="accessories.html">
+                                        Accessories </a>
+                                </li>
+
+                                <li>
+                                    <a href="footwear.html">
+                                        Footwear </a>
+                                </li>
+                                <form class="form-inlinemy-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-info my-2 my-sm-0 text-center"
+                                        type="submit">Search</button>
+                                </form>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+                <!-- Mobile Menu Area End -->
+            </div>
+        </div>
+    
+    
+    </div>
+</div>
+
+
+
 <!-- slider-main-area start-->
-<div class="slider-main-area">
+
+
+<div class="slider-main-area mt-5">
     <div class="slider-active owl-carousel">
                         <img style = "width: 100%" src = "images/slider/new_02.jpg" alt="Colorful Life 01" />
                                 <img style = "width: 100%" src = "images/slider/new_01.jpg" alt="Colorful Life 02" />
                                 <img style = "width: 100%" src = "images/slider/new_04.jpg" alt="Colorful Life 03" />
                     </div>
 </div>
+
+
+
+
+
 <!--slider-main-area end-->
 <!--product-area start -->
 <div class = "product-two-area ptb-80">

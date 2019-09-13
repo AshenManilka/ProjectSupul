@@ -10,8 +10,11 @@
     01. Theme Default CSS (body, link color, section etc)
         01.1. Color codes
     02. header-area css 
+        02.1 navbar dropdown
+        02.2 search bar
     03. header-mid-area css 
         03.1. mini-cart-wrap css 
+        03.2. filter css
     04. main-menu-wrap css 
         04.1. dropdown_menu css 
         04.2. sub_menu css  
@@ -473,6 +476,106 @@ border-color: #AEFF5E;
   margin-right: 20px
   
 }
+/*-------------------------------------
+    02.1 navbar dropdown
+
+--------------------------------------*/
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.container1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FE5F38;
+}
+
+.page-item.active .page-link {
+
+  z-index: 1;
+
+  color: #fff;
+
+  background-color: #FF0000;
+
+  border-color: #AEFF5E;
+
+}
+
+/*---------------------------------
+   02.2 search bar
+-----------------------------------*/
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ffffff !important;
+  }
+
+  .searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color:  rgb(255, 104, 66);
+  
+  
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  }
+
+
 /*---------------------------------
     03. header-mid-area css
 -----------------------------------*/
@@ -529,6 +632,10 @@ border-color: #AEFF5E;
 .search-bar.search-bar-2 button {
   color: #ffffff;
 }
+
+
+
+
 /*-----------------------------
    03.1. mini-cart-wrap css
 -------------------------------*/
@@ -678,6 +785,116 @@ border-color: #AEFF5E;
   font-size: 16px;
   margin: 15px 0 0;
 }
+
+/*-----------------------------------
+   3.2. filter css
+------------------------------------*/
+
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0 0 0.5rem 0;
+  list-style: none;
+  width: 100%;
+  text-align: left;
+  background: #ffffff;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top: 0 none !important;
+}
+
+.select-options li {
+  position: relative;
+  margin: 0;
+  padding: 12px 0;
+  text-indent: 15px;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.select-options li:after {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: block;
+  background-image: url('../../images/icons/select-circle.png');
+  
+
+
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.select-options li.lthis:after,
+.select-options li:hover:after {
+  background-position: bottom;
+}
+
+.select-options li.lthis,
+.select-options li:hover {
+  color: #e06518;
+  background: rgb(219, 208, 208);
+}
+
+.select-options li[rel="hide"] {
+  display: none;
+}
+
+.selectee {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: block;
+  text-align: left;
+}
+
+.selectee .select-styled {
+  border-radius: 30px;
+  padding: 0.8rem 1.1rem;
+  position: relative;
+  color: #404040;
+}
+
+.selectee .select-styled:hover {
+  color: #e06518;
+}
+
+.selectee .select-styled:after {
+  position: absolute;
+  content: " ";
+  width: 15px;
+  height: 8px;
+  top: 40%;
+  right: 1rem;
+  background-image: url('../../images/icons/select-arrow.gif');
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-transition: background-position .3s ease-in;
+  -moz-transition: background-position .3s ease-in;
+  -o-transition: background-position .3s ease-in;
+  transition: background-position .3s ease-in;
+}
+
 /*-----------------------------------
    04. main-menu-wrap css 
 ------------------------------------*/
