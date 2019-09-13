@@ -164,6 +164,27 @@ body {
 .pt-80{
   padding-top: 80px;
 }
+.prl-women
+{
+  padding-right: 33px;
+  padding-left:  33px;
+}
+
+.prl-men{
+  padding-right: 55px;
+  padding-left:  55px;
+}
+.prl-kids
+{
+  padding-right: 53px;
+  padding-left:  53px;
+}
+.prl-foot
+{
+  padding-right: 13px;
+  padding-left:  13px;
+}
+
 .mtb-20{
   margin: 20px 0;
 }
