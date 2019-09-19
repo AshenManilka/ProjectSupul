@@ -2,10 +2,8 @@
 <html lang="en">
 
 
-<!-- Mirrored from www.supul.lk/products/women by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2019 05:06:15 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <meta name="robots" content="all, follow">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
@@ -514,128 +512,9 @@ _________________________________________________________ -->
     <script src="http://www.supul.lk/assets/js/plugins.js"></script>
     <!-- main JS -->
     <script src="http://www.supul.lk/assets/js/main.js"></script>
+    
     <script type="text/javascript" src="http://www.supul.lk/assets/js/common.js"></script>
-    <script>
-        // Material Select Initialization
-        $(document).ready(function () {
-            $('.mdb-select').materialSelect();
-        });
-
-
-        $(function () {
-            // ------------------------------------------------------- //
-            // Multi Level dropdowns
-            // ------------------------------------------------------ //
-            $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
-                event.preventDefault();
-                event.stopPropagation();
-
-                $(this).siblings().toggleClass("show");
-
-
-                if (!$(this).next().hasClass('show')) {
-                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-                }
-                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
-                    $('.dropdown-submenu .show').removeClass("show");
-                });
-
-            });
-        });
-
-        $(document).ready(function () {
-            $(document).on('click', '.add-to-cart-link', function (e) {
-                var productQty = $(this).prev('.product_qty').val();
-                var atrbt = $(this).attr('href');
-                $(this).attr('href', atrbt + '/' + productQty);
-            });
-            // Cart page once check the register check box show pasword section
-            $('.password-section').hide();
-            var isChecked = $('#deliver_to_different_address').is(":checked");
-            if (isChecked) {
-                $('.shipping-section').show();
-            } else {
-                $('.shipping-section').hide();
-            }
-            $('#register-new-account').on('change', function () {
-                var isChecked = $(this).is(":checked");
-                if (isChecked) {
-                    $('.password-section').show();
-                } else {
-                    $('.password-section').hide();
-                }
-            });
-            $('#deliver_to_different_address').on('change', function () {
-                var isChecked = $(this).is(":checked");
-                if (isChecked) {
-                    $('.shipping-section').show();
-                } else {
-                    $('.shipping-section').hide();
-                }
-            });
-
-        });
-        // Print    
-        function printDiv(divName) {
-            var printContents = document.getElementById(divName).innerHTML;
-            var originalContents = document.body.innerHTML;
-
-            document.body.innerHTML = printContents;
-
-            window.print();
-
-            document.body.innerHTML = originalContents;
-        }
-        // DropZone upload multiple images
-        function init_dropzone() {
-            Dropzone.autoDiscover = false;
-            $(".upload-multi-images").dropzone({
-                maxFiles: 4,
-                addRemoveLinks: true,
-                resizeWidth: 1200,
-                resizeQuality: 0.6,
-                paramName: 'uploadfile',
-                init: function () {
-                    var elemthis = this;
-                    var imageList = $('.already-added-images > input');
-                    if (imageList.length > 0) {
-                        $.each(imageList, function (key, value) {
-                            var mockFile = {
-                                name: value.attributes.value.value,
-                                fileid: value.attributes.fileid.value,
-                                actionid: value.attributes.actionid.value,
-                                url: value.attributes.url.value,
-                                type: 'image/jpeg'
-                            };
-                            elemthis.options.addedfile.call(elemthis, mockFile);
-                            elemthis.options.thumbnail.call(elemthis, mockFile, value.attributes
-                                .value.value);
-                            mockFile.previewElement.classList.add('dz-success');
-                            mockFile.previewElement.classList.add('dz-complete');
-                        });
-                    }
-                },
-                removedfile: function (file) {
-                    if (file.actionid == undefined) {
-                        location.reload(true);
-                    } else {
-                        var postData = {
-                            fileid: file.fileid,
-                            actionid: file.actionid
-                        };
-                        var url = file.url;
-                        var post = ajax_post(url, postData);
-                        post.done(function (response) {
-                            if (response.status == 'success') {
-                                file.previewElement.remove();
-                            }
-                            notification_handler(response, '');
-                        });
-                    }
-                }
-            });
-        }
-    </script>
+  
 
     
 <script>
@@ -653,7 +532,7 @@ _________________________________________________________ -->
             }
           });
         }
-        </script>
+</script>
 
     </head>
 

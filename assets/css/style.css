@@ -15,6 +15,7 @@
     03. header-mid-area css 
         03.1. mini-cart-wrap css 
         03.2. filter css
+        03.3 form css
     04. main-menu-wrap css 
         04.1. dropdown_menu css 
         04.2. sub_menu css  
@@ -53,7 +54,11 @@
 /*-------------------
   01. Theme Default CSS (body, link color, section etc)
 ---------------------*/
-html, body {height: 100%;}
+html, body {height: 100%;
+
+ 
+
+}
 .floatleft {float:left}
 .floatright {float:right}
 .alignleft {float:left;margin-right:15px;margin-bottom: 15px}
@@ -246,6 +251,7 @@ body {
 /*----------------------
     01.1. Color codes
 ------------------------*/
+
 .bg-gray{
   background: #F0F0F0;
 }
@@ -271,7 +277,7 @@ body {
   border: 2px solid #dedede;
 }
 .border-btm {
-  border-bottom: 1px solid #4e4e4e;
+  border-bottom: 1px solid #f3ecec;
 }
 .head{
 
@@ -916,6 +922,13 @@ body,html{
   transition: background-position .3s ease-in;
 }
 
+
+
+/*-----------------------------------
+      03.3 form css
+------------------------------------*/
+
+
 /*-----------------------------------
    04. main-menu-wrap css 
 ------------------------------------*/
@@ -923,7 +936,7 @@ body,html{
   -webkit-animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
   background: rgba(243, 220, 214, 0.9) none repeat scroll 0 0;
-  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+  box-shadow: 0 1px 3px rgb(240, 235, 235);
   left: 0;
   margin: auto;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
