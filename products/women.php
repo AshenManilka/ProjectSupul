@@ -130,16 +130,24 @@
   color:white;
   }
 
+  h1:before, .primary-content h1:after {
+    color: rgb(233, 36, 36);
+    content: '';
+    flex: 1;
+    border-bottom: groove 1px;
+    margin: auto 0.25em;
+    box-shadow: 0 -1px;
+}
 
     </style>
 </head>
-<body>
+
     <!-- *** NAVBAR ***
 _________________________________________________________ -->
     <div class="main-wrapper home-4">
         <header>
             <!-- hader-top start -->
-            <div class="header-top bg-black border-btm">
+            <div class="header-top bg-black border-btm"   style=" background-color: rgba(243, 220, 214, 0.9);  margin-top: 0; border-bottom-color: aliceblue"">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-2">
@@ -160,11 +168,11 @@ _________________________________________________________ -->
                             <!-- user-info-top start-->
                             <div class="user-info-top mt-4">
                                 <ul>
-                                    <li><a href="../index.html"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
-                                    <li><a href="../about-us.html"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
+                                    <li><a href="../index1.php"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                    <li><a href="../about-us.php"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
                                     </li>
-                                    <li><a href="../about-us.html#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
-                                    <li><a href="../careers.html"><i
+                                    <li><a href="../about-us.php#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
+                                    <li><a href="../careers.php"><i
                                                 class="fa fa-users fa-2x"></i>Careers</a></li>
                                 </ul>
 
@@ -209,7 +217,7 @@ _________________________________________________________ -->
             <!-- header-mid-area end -->
             <!-- header-bottom start -->
 
-            <div class="header-bottom-area sticky-header " style="margin-top:-2%"
+            <div class="header-bottom-area sticky-header " style="margin-top:-2%">
                 <div class="container">
                     <div class="row d-none d-lg-block">
                         <div class="col-lg-12">
@@ -471,21 +479,32 @@ _________________________________________________________ -->
                 </div>
             </div>
             <!-- header-bottom end -->
-            <div class="container  listof w-1440 ">
-                <div class="row text-center">
-                    <div class="col ">
-                        <h1 class="head">Women</h1>
-                    </div>
-                </div>
+
+        </header>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-12">
+                <h1 class="head"  style=" background-image: linear-gradient(to right,rgba(243, 220, 214, 0.9), rgb(255, 255, 255)); margin-top: -25px">
+                        
+                        Women
+                       
+
+                    </h1> 
+        </div>
+    </div>
+           
+    <div class="container  " style=" margin-top: 20px">
+               
                 <!-- Filter boxes -->
                 <div class="row ">
-                    <div class="col-12">
+                    <div class="col-12" >
                         <button id="mFilterShow" class="btn rounded-0 btn-dark" style="display: none;"
                             data-toggle="collapse" data-target="#mobfilter">FILTERS</button>
                     </div>
                 </div>
                 <div class="pfilters  text-center clearfix" id="mobfilter">
-                    <form method="get" id="filters_form">
+                    <form method="get" id="filters_form" >
                         <div class="block-grid-xs-1 block-grid-md-3 block-grid-lg-5">
                             <div class="fdrops">
                                 <select class="attributes fancy-select" name="attributes[2]">
@@ -575,9 +594,10 @@ _________________________________________________________ -->
                     </form>
                 </div>
                 <!-- Filter boxes ends -->
-            </div>
-        </header>
-    </div><!-- breadcrumb-area start -->
+    </div>
+      
+   
+    <!-- breadcrumb-area start -->
     <!-- breadcrumb-area end -->
     <!-- main-content-warpper start -->
     <div class="main-content-warpper">
@@ -604,20 +624,20 @@ _________________________________________________________ -->
                                                                         <div class="single-product-wrap mt-30">
                                                                             <div class="product-thumbnail">
                                                                                 <a
-                                                                                    href="../product/view1.html">
+                                                                                    href="../product/view1.php">
                                                                                     <img class="first-image"
-                                                                                        src="http://www.supul.lk/images/test.png"
+                                                                                        src="http://www.supul.lk/images/test3.png"
                                                                                         alt="">
                                                                                 </a>
                                                                                 <div class="product-action">
-                                                                                    <a href="../product/view1.html"
+                                                                                    <a href="../product/view1.php"
                                                                                         class="links-details"><i
                                                                                             class="ion-clipboard"></i></a>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="product-content text-center">
                                                                                 <h3 class="product-name"><a
-                                                                                        href="../product/view1.html">test</a>
+                                                                                        href="../product/view1.php">test</a>
                                                                                 </h3>
                                                                                 <div class="price-box">
                                                                                     <span class="new-price">LKR
@@ -863,144 +883,131 @@ _________________________________________________________ -->
                 </div>
 
             </div>
-            
-            <!-- *** FOOTER ***_________________________________________________________ -->
+        </div> 
+    </div>
 
-            <!-- footer-area start -->
-            <footer class="footer-area drak-footer">
-                <div class="footer-top bg-black pt-80">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="newsletter-title">
-                                    <h2 id="block-newsletter-label">Stay Up For SendNewsletter</h2>
-                                    <p></p>
+<!-- *** FOOTER ***_________________________________________________________ -->
+
+<!-- footer-area start -->
+<footer class="footer-area drak-footer"  >
+        <div class="footer-top bg-black pt-80" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="newsletter-title">
+                            <h2 id="block-newsletter-label">Stay Up For SendNewsletter</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="newsletter-area">
+                            <form action="#" id="mc-form" class="newsletter-inner">
+                                <p>Newsletter Signup</p>
+                                <div class="newsletter-input">
+                                    <input type="email" placeholder="Your email address" >
                                 </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="newsletter-area">
-                                    <form action="#" id="mc-form" class="newsletter-inner">
-                                        <p>Newsletter Signup</p>
-                                        <div class="newsletter-input">
-                                            <input type="text" placeholder="Your email address">
-                                        </div>
-                                        <div class="subscribe-btn-area">
-                                            <button type="submit" class="subscribe-btn">Subscribe</button>
-                                        </div>
-                                    </form>
+                                <div class="subscribe-btn-area">
+                                    <button type="submit" class="subscribe-btn">Subscribe</button>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="footer-middle bg-black pb-20">
-                    <div class="container">
-                        <div class="footer-main-content  pt-20">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-12">
-                                    <!-- footer-content start -->
-                                    <div class="footer-content">
-                                        <h3 class="footer-title">Contact us</h3>
-                                        <ul class="footer_list_info">
-                                            <li><i class="fa fa-map-marker"></i>Supul Collection<br>Administrative
-                                                Office<br>#52, Hospital Road, Mulleriyawa New Town, <br>Sri Lanka</li>
-                                            <li class="phone"><i class="icon ion-android-call"></i> <span>+94 0114 377
-                                                    522
-                                                </span></li>
-                                            <li class="phone"><i class="icon ion-android-fax"></i> <span>+94 0112 549
-                                                    525
-                                                </span></li>
-                                            <li class="mail"><i class="icon ion-android-mail"></i> <a
-                                                    href="#">info@supul.lk</a></li>
+            </div>
+        </div>
+        <div class="footer-middle bg-black pb-20 mt-2"  style=" background-color: rgba(243, 220, 214, 0.9);">
+            <div class="container">
+                <div class="footer-main-content  pt-20">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12">
+                            <!-- footer-content start -->
+                            <div class="footer-content">
+                                <h3 class="footer-title">Contact us</h3>
+                                <ul class="footer_list_info">
+                                    <li><i class="fa fa-map-marker"></i>Supul Collection<br>Administrative Office<br>#52, Hospital Road, Mulleriyawa New Town, <br>Sri Lanka</li>
+                                    <li class="phone"><i class="icon ion-android-call"></i> <span>+94 0114 377 522 </span></li>
+                                    <li class="phone"><i class="icon ion-android-fax"></i> <span>+94 0112 549 525 </span></li>
+                                    <li class="mail"><i class="icon ion-android-mail"></i> <a href="#">info@supul.lk</a></li>
+                                </ul>
+                            </div>
+                            <!-- footer-content end -->
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <!-- footer-content start -->
+                            <div class="footer-content">
+                                <h3 class="footer-title">Links</h3>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="footer_list">
+                                            <li><a href="products/women.html">Ladies Wear</a></li>
+                                            <li><a href="products/men.html">Mens Ware </a></li>
+                                            <li><a href="products/kids.html">Kids Ware </a></li>
+                                            <li><a href="products/accessories.html">Accessories</a></li>                                        
                                         </ul>
                                     </div>
-                                    <!-- footer-content end -->
-                                </div>
-                                <div class="col-lg-3 col-md-4">
-                                    <!-- footer-content start -->
-                                    <div class="footer-content">
-                                        <h3 class="footer-title">Links</h3>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <ul class="footer_list">
-                                                    <li><a href="http://www.supul.lk/products/women">Ladies Wear</a>
-                                                    </li>
-                                                    <li><a href="http://www.supul.lk/products/men">Mens Ware </a></li>
-                                                    <li><a href="http://www.supul.lk/products/kids">Kids Ware </a></li>
-                                                    <li><a
-                                                            href="http://www.supul.lk/products/accessories">Accessories</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <ul class="footer_list">
-                                                    <li><a href="#">Accessories </a></li>
-                                                    <li><a href="#">Gift Items</a></li>
-                                                    <li><a href="#">About Us</a></li>
-                                                    <li><a href="#">Contact Us</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- footer-content end -->
-                                </div>
-                                <div class="col-lg-3 col-md-4">
-                                    <!-- footer-content start -->
-                                    <div class="footer-content">
-                                        <h3 class="footer-title">Show rooms</h3>
-                                        <ul class="footer_list_info">
-                                            <li><a href="#">Angoda</a></li>
-                                            <li><a href="#">Malabe</a></li>
-                                            <li><a href="#">Kaduwela</a></li>
-                                            <li><a href="#">Hanwella</a></li>
+                                    <div class="col-lg-6">
+                                        <ul class="footer_list">
+                                            <li><a href="#">Accessories </a></li>
+                                            <li><a href="#">Gift Items</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Contact Us</a></li>
                                         </ul>
                                     </div>
-                                    <!-- footer-content end -->
                                 </div>
-                                <div class="col-lg-3 col-md-4">
-                                    <!-- footer-content start -->
-                                    <div class="footer-content">
-                                        <h3 class="footer-title">Social Links</h3>
-                                        <div class="top-social-warraper">
-                                            <ul>
-                                                <li><a href="https://www.facebook.com/SupulCollection/"><i
-                                                            class="fa fa-facebook"></i></a></li>
-                                                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                                                <li><a href="https://www.youtube.com/channel/UCxB35jLD-Lpc4WI0LU2stEQ"><i
-                                                            class="fa fa-youtube"></i></a></li>
-                                                <li><a style="border:none" href="https://www.instagram.com/supulcollection/"><i  class="fa fa-instagram"></i></a></li>
-                                                        
-                                                            
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- footer-content end -->
+                            </div>
+                            <!-- footer-content end -->
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <!-- footer-content start -->
+                            <div class="footer-content">
+                                <h3 class="footer-title">Show rooms</h3>
+                                <ul class="footer_list_info">
+                                    <li><a href="#">Angoda</a></li>
+                                    <li><a href="#">Malabe</a></li>
+                                    <li><a href="#">Kaduwela</a></li>
+                                    <li><a href="#">Hanwella</a></li>
+                                </ul>
+                            </div>
+                            <!-- footer-content end -->
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <!-- footer-content start -->
+                            <div class="footer-content">
+                                <h3 class="footer-title">Social Links</h3>
+                                <div class="top-social-warraper">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/SupulCollection/"><i class="fab fa-facebook"></i></a></li>
+                                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                                        <li><a href="https://www.youtube.com/channel/UCxB35jLD-Lpc4WI0LU2stEQ"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a style="border: none" href="https://www.instagram.com/supulcollection/"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
                                 </div>
+                            </div>
+                            <!-- footer-content end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom bg-black" style="background-color: #D48166">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-bottom-inner border-top">
+                            <div class="copyright">Copyright <i class="icon-copyright"></i> <a href="#">Supul Collection</a>. All Rights Reserved</div>
+                            <p class="copyright">
+                                Powered By <a href="##" target="_new" alt='Most trusted web based solution provider in Sri Lanka' title='Most trusted web based solution provider in Sri Lanka'>*************</a>
+                            </p>
+                            <div class="payment">
+                                <img src="images/icon/payment.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom bg-black">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="footer-bottom-inner border-top">
-                                    <div class="copyright">Copyright <i class="icon-copyright"></i> <a href="#">Supul
-                                            Collection</a>. All Rights Reserved</div>
-                                    <p class="copyright">
-                                        Powered By <a href="#" target="_new"
-                                            alt="Most trusted web based solution provider in Sri Lanka"
-                                            title="Most trusted web based solution provider in Sri Lanka">HCI Grup 1</a>
-                                    </p>
-                                    <div class="payment">
-                                        <img src="http://www.supul.lk/images/icon/payment.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            </div>
+        </div>
+    </footer>
+
             <script type='text/javascript'>
                 var AppData = {};
             </script>

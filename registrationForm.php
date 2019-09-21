@@ -186,12 +186,12 @@
                         <!-- user-info-top start-->
                         <div class="user-info-top mt-4">
                             <ul>
-                                <li><a href="./index.html"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
-                                <li><a href="./about-us.html"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
+                                <li><a href="./index1.php"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                <li><a href="./about-us.php"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
                                 </li>
-                                <li><a href="./about-us.html#locations"><i class="fa fa-phone fa-2x"></i>Locations</a>
+                                <li><a href="./about-us.php#locations"><i class="fa fa-phone fa-2x"></i>Locations</a>
                                 </li>
-                                <li><a href="./careers.html"><i class="fa fa-users fa-2x"></i>Careers</a></li>
+                                <li><a href="./careers.php"><i class="fa fa-users fa-2x"></i>Careers</a></li>
                             </ul>
 
 
@@ -231,8 +231,8 @@
      
                   
                        <label for="firstName">First name</label>
-                       <input type="text" class="form-control" id="firstName"  name="firstname"  placeholder=""  required autofocus>
-                       <span id="fn" class="text-danger font-weight-bold"></span>
+                       <input type="text" class="form-control" id="firstName"  name="firstname"  placeholder=""  >
+                       <span id="fn" class="text-danger font-weight-bold" required autofocus></span>
                      </div>
      
                        <!--Last Name-->

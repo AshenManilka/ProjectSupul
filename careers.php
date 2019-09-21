@@ -2,36 +2,41 @@
 <html lang="en">
 
 
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-    <meta name="robots" content="all, follow">
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <meta charset="utf-8">
-    <meta name="author" content="3LinksITSolutions | Sri Lanka Best Website developers">
-    <title>Supul Collection - Fashion for Your Life</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <!-- all CSS hear -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
-    <link rel="stylesheet" href="../assets/css/nice-select.css">
-    <link rel="stylesheet" href="../assets/css/slick.min.css">
-    <link rel="stylesheet" href="../assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../assets/css/mainmenu.css">
-    <!-- Style CSS hear -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/responsive.css">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+                <meta name="robots" content="all, follow">
+                <meta name="viewport" content="width = device-width, initial-scale = 1">
+                <meta charset="utf-8">        
+                <meta name="author" content="3LinksITSolutions | Sri Lanka Best Website developers">
+                <title>Supul Collection - Fashion for Your Life</title>
+                <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">	
+                <!-- all CSS hear -->		
+                <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+                <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+                <link rel="stylesheet" href="assets/css/ionicons.min.css">
+                <link rel="stylesheet" href="assets/css/animate.css">`
+                <link rel="stylesheet" href="assets/css/nice-select.css">
+                <link rel="stylesheet" href="assets/css/slick.min.css">
+                <link rel="stylesheet" href="assets/css/jquery-ui.css">
+                <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+                <link rel="stylesheet" href="assets/css/mainmenu.css">
+                <!-- Style CSS hear -->
+                <link rel="stylesheet" href="assets/css/style.css">
+                <link rel="stylesheet" href="assets/css/responsive.css">		
+                <link rel="stylesheet" href="assets/css/reset.css">		
+                <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        
+        
+                <!--search bar-->
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+          
+        
 
     <script src="../assets/js/vendor/modernizr-2.8.3.min.js"></script>
     <style>
@@ -142,6 +147,19 @@
             overflow: hidden;
           }
 
+          .myForm{
+  
+                
+            top:0vh;
+            padding: 30px;
+            border-radius: 10px;
+          
+            box-shadow: 2px 2px 2px 2px rgb(109, 106, 106);
+           
+            
+            opacity: 1;
+          }
+
         /*
 *
 * ==========================================
@@ -156,45 +174,37 @@
     <!-- *** NAVBAR ***
 _________________________________________________________ -->
     <div class="main-wrapper home-4">
-        <header>
-            <!-- hader-top start -->
-            <div class="header-top bg-black border-btm">
+         <!-- hader-top start -->
+         <div class="header-top bg-black border-btm"   style=" background-color: rgba(243, 220, 214, 0.9);  margin-top: -25px; border-bottom-color: aliceblue"">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-2">
                             <div class="header-left-area">
-                                <!-- language-currency-wrapper start -->
-                                <div class="language-currency-wrapper">
-    
-                                </div>
-                                <!-- language-currency-wrapper end -->
-                                <!-- top-social-warraper start -->
+                             
                                 <div class="logo">
                                     <ul>
                                         <div class="logo ">
-                                            <a href="../index.html"><img src="http://www.supul.lk/images/logo/logo-2.png" alt=""></a>
+                                            <a href="../index.html"><img src="./images/logo/logo-2.png" alt=""></a>
                                         </div>
-                                        
+
+
                                     </ul>
                                 </div>
-    
+
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 ">
                             <!-- user-info-top start-->
                             <div class="user-info-top mt-4">
                                 <ul>
-                                    <li><a href="./index.html"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
-                                    <li><a href="./about-us.html"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
+                                    <li><a href="./index1.php"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                    <li><a href="./about-us.php"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
                                     </li>
-                                    <li><a href="./about-us.html#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
-                                    <li><a href="./careers.html"><i
+                                    <li><a href="./about-us.php#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
+                                    <li><a href="./careers.php"><i
                                                 class="fa fa-users fa-2x"></i>Careers</a></li>
                                 </ul>
-    
-                               
-    
-    
+
                             </div>
                             <!-- user-info-top end -->
                         </div>
@@ -202,17 +212,6 @@ _________________________________________________________ -->
                 </div>
             </div>
             <!-- hader-top end -->
-            <!-- header-mid-area start -->
-
-            <!-- header-mid-area end -->
-            <!-- header-bottom start -->
-
-
-
-
-            <!-- header-bottom end -->
-        </header>
-
 
 
     </div><!-- breadcrumb-area start -->
@@ -223,20 +222,30 @@ _________________________________________________________ -->
   
   
   
+    <div class="row text-center">
+            <div class="col-12">
+                    <h1 class="head"  style=" background-image: linear-gradient(to right,rgba(243, 220, 214, 0.9), rgb(255, 255, 255)); margin-top: 5%">
+                            
+                            CAREERS
+                           
+    
+                        </h1> 
+            </div>
+        </div>
   
-  
+<div class="row text-center">
+    <div class="col-12" style=" background-image: linear-gradient(to right,rgba(243, 220, 214, 0.9), rgb(255, 255, 255)); margin-top:-5px ">
+
     <div class="container">
-        <h1 class="head text-center mt-5" >
-            CAREERS
-        </h1>
-            <div class="row  mt-5">
+          
+            <div class="row  ">
                     <div class="text-center col-lg-3 col-md-3 mt-5">
                             <div class=" btn-group-vertical ">
-                             <button type="button" class="btn btn-outline-warning btn-block mt-5">MEN</button>
-                            <button type="button" class="btn btn btn-outline-warning btn-block mt-5">WOMEN</button>
-                            <button type="button" class="btn btn btn-outline-warning btn-block mt-5">KIDS</button>
-                            <button type="button" class="btn btn btn-outline-warning btn-block mt-5">ACCESSORIES</button>
-                            <button type="button" class="btn btn btn-outline-warning  btn-block mt-5">FOOTWEAR</button>
+                             <button type="button" class="btn btn-outline-secondary btn-block mt-5">MEN</button>
+                            <button type="button" class="btn btn btn-outline-secondary btn-block mt-5">WOMEN</button>
+                            <button type="button" class="btn btn btn-outline-secondary btn-block mt-5">KIDS</button>
+                            <button type="button" class="btn btn btn-outline-secondary btn-block mt-5">ACCESSORIES</button>
+                            <button type="button" class="btn btn btn-outline-secondary  btn-block mt-5">FOOTWEAR</button>
                            
                             
                             
@@ -257,7 +266,7 @@ _________________________________________________________ -->
                                           </div> 
                     
                             </div>
-                            <div class="col-lg-6 col-md-6 mt-5">
+                            <div class="col-lg-6 col-md-6 mt-5   myForm  ">
                                 <h3 class="text-center"> Join With Us  </h3>
                                     <form>
                                             <div class="form-group col-md-12">
@@ -302,7 +311,7 @@ _________________________________________________________ -->
                                             <div class="form-group">
                                              
                                             </div >
-                                            <button type="submit" class="btn btn-outline-info btn-block">SUBMIT</button>
+                                            <button type="submit" class="btn btn-outline-secondary btn-block">SUBMIT</button>
                                           </form>
                     
                             </div>
@@ -348,7 +357,7 @@ _________________________________________________________ -->
                             </div>
                        
 
-                            <button type="submit" class="btn btn-outline-info btn-block mt-3">SUBMIT</button>
+                            <button type="submit" class="btn btn-outline-secondary btn-block mt-3 mb-3"  >SUBMIT</button>
 
                         </div>
         
@@ -359,16 +368,16 @@ _________________________________________________________ -->
     </div>
   
    
-    
+</div>
+</div>  
     
    
 
+<!-- *** FOOTER ***_________________________________________________________ -->
 
-    <!-- *** FOOTER ***_________________________________________________________ -->
-
-    <!-- footer-area start -->
-    <footer class="footer-area drak-footer">
-        <div class="footer-top bg-black pt-80">
+<!-- footer-area start -->
+<footer class="footer-area drak-footer"  >
+        <div class="footer-top bg-black pt-80" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -382,7 +391,7 @@ _________________________________________________________ -->
                             <form action="#" id="mc-form" class="newsletter-inner">
                                 <p>Newsletter Signup</p>
                                 <div class="newsletter-input">
-                                    <input type="text" placeholder="Your email address">
+                                    <input type="email" placeholder="Your email address" >
                                 </div>
                                 <div class="subscribe-btn-area">
                                     <button type="submit" class="subscribe-btn">Subscribe</button>
@@ -393,7 +402,7 @@ _________________________________________________________ -->
                 </div>
             </div>
         </div>
-        <div class="footer-middle bg-black pb-20">
+        <div class="footer-middle bg-black pb-20 mt-2"  style=" background-color: rgba(243, 220, 214, 0.9);">
             <div class="container">
                 <div class="footer-main-content  pt-20">
                     <div class="row">
@@ -402,14 +411,10 @@ _________________________________________________________ -->
                             <div class="footer-content">
                                 <h3 class="footer-title">Contact us</h3>
                                 <ul class="footer_list_info">
-                                    <li><i class="fa fa-map-marker"></i>Supul Collection<br>Administrative
-                                        Office<br>#52, Hospital Road, Mulleriyawa New Town, <br>Sri Lanka</li>
-                                    <li class="phone"><i class="icon ion-android-call"></i> <span>+94 0114 377 522
-                                        </span></li>
-                                    <li class="phone"><i class="icon ion-android-fax"></i> <span>+94 0112 549 525
-                                        </span></li>
-                                    <li class="mail"><i class="icon ion-android-mail"></i> <a href="#">info@supul.lk</a>
-                                    </li>
+                                    <li><i class="fa fa-map-marker"></i>Supul Collection<br>Administrative Office<br>#52, Hospital Road, Mulleriyawa New Town, <br>Sri Lanka</li>
+                                    <li class="phone"><i class="icon ion-android-call"></i> <span>+94 0114 377 522 </span></li>
+                                    <li class="phone"><i class="icon ion-android-fax"></i> <span>+94 0112 549 525 </span></li>
+                                    <li class="mail"><i class="icon ion-android-mail"></i> <a href="#">info@supul.lk</a></li>
                                 </ul>
                             </div>
                             <!-- footer-content end -->
@@ -421,11 +426,10 @@ _________________________________________________________ -->
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <ul class="footer_list">
-                                            <li><a href="http://www.supul.lk/products/women">Ladies Wear</a></li>
-                                            <li><a href="http://www.supul.lk/products/men">Mens Ware </a></li>
-                                            <li><a href="http://www.supul.lk/products/kids">Kids Ware </a></li>
-                                            <li><a href="http://www.supul.lk/products/accessories">Accessories</a>
-                                            </li>
+                                            <li><a href="products/women.html">Ladies Wear</a></li>
+                                            <li><a href="products/men.html">Mens Ware </a></li>
+                                            <li><a href="products/kids.html">Kids Ware </a></li>
+                                            <li><a href="products/accessories.html">Accessories</a></li>                                        
                                         </ul>
                                     </div>
                                     <div class="col-lg-6">
@@ -459,13 +463,10 @@ _________________________________________________________ -->
                                 <h3 class="footer-title">Social Links</h3>
                                 <div class="top-social-warraper">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/SupulCollection/"><i
-                                                    class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/SupulCollection/"><i class="fab fa-facebook"></i></a></li>
                                         <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                                        <li><a href="https://www.youtube.com/channel/UCxB35jLD-Lpc4WI0LU2stEQ"><i
-                                                    class="fa fa-youtube"></i></a></li>
-                                        <li><a style="border: none" href="https://www.instagram.com/supulcollection/"><i
-                                                    class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCxB35jLD-Lpc4WI0LU2stEQ"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a style="border: none" href="https://www.instagram.com/supulcollection/"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -475,20 +476,17 @@ _________________________________________________________ -->
                 </div>
             </div>
         </div>
-        <div class="footer-bottom bg-black">
+        <div class="footer-bottom bg-black" style="background-color: #D48166">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-bottom-inner border-top">
-                            <div class="copyright">Copyright <i class="icon-copyright"></i> <a href="#">Supul
-                                    Collection</a>. All Rights Reserved</div>
+                            <div class="copyright">Copyright <i class="icon-copyright"></i> <a href="#">Supul Collection</a>. All Rights Reserved</div>
                             <p class="copyright">
-                                Powered By <a href="#" target="_new"
-                                    alt="Most trusted web based solution provider in Sri Lanka"
-                                    title="Most trusted web based solution provider in Sri Lanka">HCI Grup 1</a>
+                                Powered By <a href="##" target="_new" alt='Most trusted web based solution provider in Sri Lanka' title='Most trusted web based solution provider in Sri Lanka'>*************</a>
                             </p>
                             <div class="payment">
-                                <img src="http://www.supul.lk/images/icon/payment.png" alt="">
+                                <img src="images/icon/payment.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -496,7 +494,6 @@ _________________________________________________________ -->
             </div>
         </div>
     </footer>
-
 
 
 

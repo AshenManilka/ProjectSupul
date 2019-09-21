@@ -3,7 +3,12 @@
 // Start the session
 session_start();
 
+
+
+
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -89,39 +94,68 @@ _________________________________________________________ -->
                         <!-- user-info-top start-->
                         <div class="user-info-top mt-4">
                             <ul>
-                                <li><a href="./index.html"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
-                                <li><a href="./about-us.html"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
+                                <li><a href="index1.php"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                <li><a href="./about-us.php"><i class="fa fa-check-circle fa-2x "></i>AboutUs</a>
                                 </li>
-                                <li><a href="./about-us.html#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
-                                <li><a href="./careers.html"><i
+                                <li><a href="./about-us.php#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
+                                <li><a href="./careers.php"><i
                                             class="fa fa-users fa-2x"></i>Careers</a></li>
                             
-                                <li class="nav-link dropdown-toggle nav-item   dropdownh">
-                                        <a  href="#" 
-                                        id="navbarDropdown"
-                                        role="button" 
-                                        data-toggle="dropdown" 
-                                        aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <img src="./img/books/<?php echo $_SESSION["image"];  ?>
-                                         " height="5" width="5" alt="Profile" style="width: 3rem;height:3rem; ">
-
-                                        </a>
-                                        
-                                        <div class="dropdown-menu dn ">
-                                            <a class="dropdown-item " href="Profile.php">Profile</a>
-                                            <a class="dropdown-item" href="loggingForm.php">Login</a>
-                                            <a class="dropdown-item" href="registrationForm.php">Logout
+                                      <?php
+                                         if(isset($_SESSION['email']) && !empty($_SESSION['email']))
+                                        {
+                                            
+                                             ?>
+                                            <li><a href="Profile.php"><i class="fas fa-user-circle fa-2x"></i>Profile</a></li>
+                                                    
+                                            <li class="nav-link dropdown-toggle nav-item   dropdownh">
+                                                    <a  href="#" 
+                                                    id="navbarDropdown"
+                                                    role="button" 
+                                                    data-toggle="dropdown" 
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <img src="./img/books/<?php echo $_SESSION["image"];  ?>
+                                                    " height="5" width="5" alt="Profile" style="width: 3rem;height:3rem; ">
+        
+                                                   </a>
+           
+                                                   
+                                                   <div class="dropdown-menu dn ">
+                                                      
+                                                      
+                                                       <a class="dropdown-item" href="logout.php"><i class="fas fa-sign-in-alt"></i>Logout
+                                                       <!-- <?php
+                                                       // session_unset();
+                                                       
+                                                       
+                                                       ?> -->
+                                                       </a>
+                                                      
+                                                   </div>
+                                               
+                                               
+                                               
                                             <?php
-                                             session_unset(); 
-                                            
-                                            
+                                        }
+                                        else{
                                             ?>
-                                            </a>
-                                           
-                                        </div>
-                                </li>
+                                             <li><a href="loggingForm.php"><i class="fas fa-sign-in-alt fa-2x"></i>
+                                             Login</a></li>
 
+                                            <li><a href="registrationForm.php"><i class="fas fa-sign-in-alt fa-2x">
+
+                                            </i>Register</a></li>
+                                         
+                                    
+                                          
+                                          <?php     
+                                                                               
+                                        }
+                                        ?>
+                                        
+                                </li>
+                               
 
 
 
@@ -198,14 +232,14 @@ _________________________________________________________ -->
                                         <a href="./index.html"> HOME </a>
                                     </li>
                                     <li class="nav-item   dropdownh">
-                                        <a class="nav-link dropdown-toggle" href="./products/women.html" id="navbarDropdown"
+                                        <a class="nav-link dropdown-toggle" href="./products/women.php" id="navbarDropdown"
                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false">
                                             Women
 
                                         </a>
                                         <div class="dropdown-menu ">
-                                            <a class="dropdown-item " href="./products/women.html">Dresses</a>
+                                            <a class="dropdown-item " href="./products/women.php">Dresses</a>
                                             <a class="dropdown-item" href="#">Party</a>
                                             <a class="dropdown-item" href="#">Linen</a>
                                             <a class="dropdown-item" href="#">Tops</a>

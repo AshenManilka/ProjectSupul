@@ -48,8 +48,16 @@ session_start();
                     header("LOCATION: index1.php?p_id=$user_id");
                 }else{
                     header("LOCATION: logingForm.php");
+
+                    
+
+
+
+
                 } 
                     
+            
+
                 } 
         
         
@@ -181,11 +189,11 @@ session_start();
                            <!-- user-info-top start-->
                            <div class="user-info-top mt-4">
                                <ul>
-                                   <li><a href="./index.html"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
-                                   <li><a href="./about-us.html"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
+                                   <li><a href="./index1.php"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                   <li><a href="./about-us.php"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
                                    </li>
-                                   <li><a href="./about-us.html#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
-                                   <li><a href="./careers.html"><i
+                                   <li><a href="./about-us.php#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
+                                   <li><a href="./careers.php"><i
                                                class="fa fa-users fa-2x"></i>Careers</a></li>
                                </ul>
    
