@@ -188,7 +188,7 @@
                                         <!-- user-info-top start-->
                                         <div class="user-info-top mt-4">
                                             <ul>
-                                                <li><a href="../index1.php"><i class="fa fa-home fa-2x "></i></i>Home</a></li>
+                                                <li><a href="../index1.php"><i class="fa fa-home "></i></i>Home</a></li>
                                                 <li><a href="../about-us.php"><i class="fa fa-check-circle fa-2x "></i>About Us</a>
                                                 </li>
                                                 <li><a href="../about-us.php#locations"><i class="fa fa-phone fa-2x"></i>Locations</a></li>
